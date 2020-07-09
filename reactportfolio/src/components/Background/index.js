@@ -6,7 +6,7 @@ export default function Background() {
         <>
         <Circles />
         <div className="contentContainer mobgrid">
-            <svg  width="100%" height="100%">
+            <svg  className="bckgrndDots" width="100%" height="100%">
                 <defs>
                     <pattern id="polka-dots" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
 

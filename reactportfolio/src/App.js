@@ -7,8 +7,9 @@ import Navbar from './components/Navbar/index'
 function App() {
   return (
     <>
-    <Background />
     <Navbar />
+    <Background />
+    
     <HomePage />
     </>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 export default function HomePage() {
     return (
         <div>
-            <div className="container-fluid">
+            <div className="ml-5 container-fluid">
                 <div className="img-thumbnail rounded mx-auto d-block pt-4 largeMarg row">
 
                     <div className="col-lg-10 offset-lg-1">
