@@ -120,6 +120,10 @@ body {
         display: none;
       
     }
+    .bodyContainer {
+      margin-left: 20vw;
+      max-width: 79vw;
+    }
     #EVICircle {
         position:absolute;
         right:0;
@@ -210,7 +214,7 @@ body {
     }
     .contentContainer {
         color: rgb(0, 0, 0);
-        padding-top: 10vh;
+
         padding-left: 20vw;
     }
     .contentContainer h1 {

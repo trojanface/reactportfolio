@@ -57,7 +57,7 @@ export default function Navbar() {
 
             <nav className="mattsnavbar">
                 <div className="graphicNavbar"></div>
-                <img src="./assets/Mlogo.png" id="logo" width="150vw" height="70vh" />
+                <img src={require("./assets/Mlogo.png")} id="logo" width="150vw" height="70vh" />
                 {/* <!--Site Links--> */}
                 <ul className="siteList">
                     <li>

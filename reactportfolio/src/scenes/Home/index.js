@@ -2,7 +2,7 @@ import React from 'react'
 export default function HomePage() {
     return (
         <div>
-            <div className="ml-5 container-fluid">
+            <div className="bodyContainer container-fluid">
                 <div className="img-thumbnail rounded mx-auto d-block pt-4 largeMarg row">
 
                     <div className="col-lg-10 offset-lg-1">
@@ -50,7 +50,7 @@ export default function HomePage() {
                             <h1 id="portfolio">Example Projects</h1>
                             <div className="row my-5">
                                 <div className="col-lg-6 mb-3">
-                                    <img src="screenshot.png" alt="Code Quiz Screenshot" className="img-thumbnail rounded mx-auto d-block"/>
+                                    <img src={require("./assets/screenshot.png")} alt="Code Quiz Screenshot" className="img-thumbnail rounded mx-auto d-block"/>
               </div>
                                     <div className="col-lg-6">
                                         <h3>Javascript Quiz</h3>
@@ -67,7 +67,7 @@ export default function HomePage() {
 
                                 <div className="row my-5">
                                     <div className="col-lg-6 mb-3">
-                                        <img src="Homedes.png" alt="Coronavirus Guide" className="img-thumbnail rounded mx-auto d-block"/>
+                                        <img src={require("./assets/Homedes.png")} alt="Coronavirus Guide" className="img-thumbnail rounded mx-auto d-block"/>
             </div>
                                         <div className="col-lg-6">
                                             <h3>Quarantine and Isolation Guide</h3>
@@ -83,7 +83,7 @@ export default function HomePage() {
                                     </div>
                                     <div className="row my-5">
                                         <div className="col-lg-6 mb-3">
-                                            <img src="desktop.png" alt="My Weather Dashboard" className="img-thumbnail rounded mx-auto d-block"/>
+                                            <img src={require("./assets/desktop.png")} alt="My Weather Dashboard" className="img-thumbnail rounded mx-auto d-block"/>
             </div>
                                             <div className="col-lg-6">
                                                 <h3>My Weather Dashboard</h3>
@@ -100,7 +100,7 @@ export default function HomePage() {
                                         </div>
                                         <div className="row my-5">
                                             <div className="col-lg-6 mb-3">
-                                                <img src="kicksU.png" alt="Kicks United" className="img-thumbnail rounded mx-auto d-block"/>
+                                                <img src={require("./assets/kicksU.png")} alt="Kicks United" className="img-thumbnail rounded mx-auto d-block"/>
             </div>
                                                 <div className="col-lg-6">
                                                     <h3>Kicks United</h3>
