@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../../components/Contact'
 export default function AboutPage() {
     return (
         <div>
@@ -40,6 +41,7 @@ export default function AboutPage() {
                     </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }
