@@ -1,11 +1,14 @@
 import React from 'react'
 import "./style.css"
 import Circles from './components/Circles'
+
+//TODO Ensure the background repeats and is in the background
+
 export default function Background() {
     return (
         <>
         <Circles />
-        <div className="contentContainer mobgrid">
+        <div style={{zIndex:-1}} className="contentContainer mobgrid">
             <svg  className="bckgrndDots" width="100%" height="100%">
                 <defs>
                     <pattern id="polka-dots" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">

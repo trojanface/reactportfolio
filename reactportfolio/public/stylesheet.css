@@ -299,7 +299,12 @@ body {
     opacity: 0;
   } */
 
-
+.bckgrndDots {
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:-2;
+}
 
 
 .bubble::before {
