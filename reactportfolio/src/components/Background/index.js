@@ -2,8 +2,6 @@ import React from 'react'
 import "./style.css"
 import Circles from './components/Circles'
 
-//TODO Ensure the background repeats and is in the background
-
 export default function Background() {
     return (
         <>
