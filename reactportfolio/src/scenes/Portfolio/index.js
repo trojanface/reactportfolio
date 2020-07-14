@@ -26,6 +26,10 @@ export default function ProjectPage() {
                                                     sessions and add & remove items from the cart. Created with HTML, CSS, Javascript, jQuery, Bootstrap,
                                                     mySQL, node.js, npm, sequelize, passport, bcrypt and
                                                     AJAX API calls." siteLink="https://kicksunited.herokuapp.com/" repoLink="https://github.com/bhamann-collab/shop" />
+                        
+                        <ProjectCard image="./assets/screenshot1.png" alt="Roster generator" title="Roster Generator" description="A Node.js CLI app that generates a visual depiciton of a software team. This includes useful contact information for each member of the team." siteLink="#" repoLink="https://github.com/trojanface/rostergenerator" />
+                        <ProjectCard image="./assets/capture.png" alt="Password generator" title="Password Generator" description="This is a useful application to generate a pseudo-random password based on user selected options. Input is strictly controlled through check boxes and sliders to reduce the risk of errors." siteLink="https://trojanface.github.io/PasswordGenerator/" repoLink="https://github.com/trojanface/PasswordGenerator" />
+                        <ProjectCard image="./assets/320PCAPHO.jpg" alt="Touch screen plugin" title="Touch Screen Plugin" description="An Autohotkey script written to enable accurate touch screen interaction between two screens of a different size in VenueMaster POS system." siteLink="#" repoLink="https://github.com/trojanface/touchscreenpluginahk" />
                         </div>
                     </div>
                 </div>

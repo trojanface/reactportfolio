@@ -16,10 +16,10 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse  mobsiteList" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item active">
-                                <a href="/">Home <span className="sr-only">(current)</span></a>
+                                <a href="#/">Home <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a href="/portfolio">Portfolio</a>
+                                <a href="#/portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
                                 <a href="#contactMe">Contact</a>
@@ -59,12 +59,12 @@ export default function Navbar() {
                 <ul className="siteList">
                     <li>
                         <div className="alignR pad0 mainLinks">
-                            <a href="/">Home</a>
+                            <a href="#/">Home</a>
                         </div>
                     </li>
                     <li>
                         <div className="alignR pad2 mainLinks">
-                            <a href="/portfolio">Portfolio</a>
+                            <a href="#/portfolio">Portfolio</a>
                         </div>
                     </li>
                     <li>
